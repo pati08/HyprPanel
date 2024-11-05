@@ -854,7 +854,7 @@ const options = mkOptions(OPTIONS, {
             },
         }),
         launcher: {
-            icon: opt('󰣇'),
+            icon: opt('❄️'),
             rightClick: opt(''),
             middleClick: opt(''),
             scrollUp: opt(''),
@@ -1113,8 +1113,8 @@ const options = mkOptions(OPTIONS, {
                 left: {
                     shortcut1: {
                         icon: opt('󰇩'),
-                        tooltip: opt('Microsoft Edge'),
-                        command: opt('microsoft-edge-stable'),
+                        tooltip: opt('Firefox'),
+                        command: opt('firefox --new-window'),
                     },
                     shortcut2: {
                         icon: opt(''),
@@ -1124,12 +1124,12 @@ const options = mkOptions(OPTIONS, {
                     shortcut3: {
                         icon: opt(''),
                         tooltip: opt('Discord'),
-                        command: opt('discord'),
+                        command: opt('vesktop'),
                     },
                     shortcut4: {
                         icon: opt(''),
                         tooltip: opt('Search Apps'),
-                        command: opt('rofi -show drun'),
+                        command: opt('tofi-drun'),
                     },
                 },
                 right: {
