@@ -1112,7 +1112,7 @@ const options = mkOptions(OPTIONS, {
                 enabled: opt(true),
                 left: {
                     shortcut1: {
-                        icon: opt('󰇩'),
+                        icon: opt('󰈹'),
                         tooltip: opt('Firefox'),
                         command: opt('firefox --new-window'),
                     },
