@@ -89,7 +89,7 @@ const getLayoutForMonitor = (monitor: number, layouts: BarLayout): Layout => {
     return {
         left: ['dashboard', 'workspaces', 'windowtitle'],
         middle: ['media'],
-        right: ['kbinput', 'cpu', 'ram', 'volume', 'network', 'bluetooth', 'battery', 'systray', 'clock', 'notifications'],
+        right: ['kbinput', 'volume', 'network', 'bluetooth', 'battery', 'systray', 'clock', 'notifications'],
     };
 };
 
