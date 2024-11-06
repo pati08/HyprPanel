@@ -1129,7 +1129,7 @@ const options = mkOptions(OPTIONS, {
                     shortcut4: {
                         icon: opt(''),
                         tooltip: opt('Search Apps'),
-                        command: opt('tofi-drun'),
+                        command: opt('rofi -show drun'),
                     },
                 },
                 right: {
